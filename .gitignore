@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Foundry build artifacts and vendored deps (reinstall with `forge install` / `forge build`)
+contracts/out/
+contracts/cache/
+contracts/lib/
+
+# Local secrets (never commit)
+*.env
+.env
+groq.env
